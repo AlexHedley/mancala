@@ -1,0 +1,12 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name":"Game 1",
+            "date":"2020-02-12",
+            "description":"First game to try it out",
+            "winner": "Alex H",
+            "loser": "Alex D"
+        }
+    ]
+}
