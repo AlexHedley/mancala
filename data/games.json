@@ -2,11 +2,11 @@
     "games": [
         {
             "id": 1,
-            "name":"Game on Sat whilst in quarantine",
-            "date":"2020-04-04",
-            "description":"First game with C, was a close one!",
+            "name": "Game on Sat whilst in quarantine",
+            "date": "2020-04-04",
+            "description": "First game with C, was a close one!",
             "winner": "Alex H",
-            "winner_count", 29,
+            "winner_count": 29,
             "loser": "Courtney",
             "loser_count": 27
         }
