@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="description" content="Pucket">
-    <meta name="keywords" content="pucket">
+    <meta name="description" content="Mancala">
+    <meta name="keywords" content="mancala">
     <meta name="author" content="Alex Hedley">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,7 +21,7 @@
     <!-- Fonts -->
     <!-- <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
 
-    <title>Pucket</title>
+    <title>Mancala</title>
   </head>
   <body ng-app="myApp">
     
@@ -30,7 +30,7 @@
 
         <section class="jumbotron title-container text-center">
             <div>
-                <h1>Pucket</h1>
+                <h1>Mancala</h1>
 
                 <div class="row justify-content-md-center">
                     <div class="col-lg-8">
@@ -59,7 +59,9 @@
                                 <p class="card-text">{{game.description}}</p>
                                 <p class="card-text">{{game.date}}</p>
                                 <p class="card-text">Winner: <strong>{{game.winner}}</strong></p>
+                                <span class="badge badge-secondary">{{game.winner_count}}</span>
                                 <p class="card-text">Loser: {{game.loser}}</p>
+                                <span class="badge badge-secondary">{{game.loser_count}}</span>
                             </div>
                         </div>
                     </div>
