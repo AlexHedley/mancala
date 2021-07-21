@@ -1,6 +1,6 @@
 # Mancala
 
-Mancala
+![Mancala](images/mancala.png "Mancala")
 
 - [Site](http://alexhedley.github.io/mancala/)
 
